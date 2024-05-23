@@ -60,6 +60,10 @@
 
 @media (max-width: 768px){
 
+    .logo{
+        font-size: 28px;
+    }
+
     .conteudo .informacoes h1{
         font-family: 'Syne', sans-serif;
         font-weight: 700;
@@ -101,5 +105,16 @@
 
     .imagem2{
         display: none;
+    }
+}
+
+@media (max-width: 530px) {
+    .conteudo{
+        width: 60vw;
+        align-items: center;
+    }
+    .butoes a{
+        width: 80vw;
+        text-align: center;
     }
 }
