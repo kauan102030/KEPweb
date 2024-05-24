@@ -86,7 +86,7 @@ nav{
 /* iniciando home */
 
 .home{
-    padding: 55px 20px 20px 20px;
+    padding: 55px 20px 80px 20px;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -166,4 +166,62 @@ nav{
     height: 440px;
     border-radius: 10px;
 }
+
+/*iniciando serviços*/
+
+.servicos {
+    text-align: center;
+    padding: 50px;
+}
+
+.servicos h1{
+    font-size: 50px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px; /* Espaçamento entre as colunas */
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
+.servicos-informacoes {
+    border: 2px solid rgb(128, 97, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(200, 200, 200, 0.579);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 330px;
+    padding: 20px 20px 30px 20px;
+    transition: 300ms;
+}
+
+.servicos-informacoes:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 25px rgba(200, 200, 200, 0.816);
+}
+
+.servicos-informacoes h3{
+    padding: 0px 15px 15px 15px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.servicos-informacoes p{
+    font-size: 25px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    text-align: start;
+}
+
+
+
+
 
