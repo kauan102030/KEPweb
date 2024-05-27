@@ -1,7 +1,8 @@
-@media (max-width: 999px) {
-    body {
+body {
         overflow-x: hidden;
     }
+
+@media (max-width: 999px) {
     .nav-list {
         position: absolute;
         top: 10vh;
@@ -12,7 +13,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        transform: translateX(100%);
+        transform: translateX(110%);
         transition: transform 0.3s ease-in;
     }
     .nav-list li {
